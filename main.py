@@ -1,3 +1,4 @@
-print('Hello Job_Search!')
+import doc2txt as Document
 
-print('New change!')
+document = Document('Test_Doc.docx')
+print(document)
