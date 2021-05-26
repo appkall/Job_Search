@@ -1,4 +1,4 @@
-import doc2txt as Document
+from docx import Document
 
-document = Document('test.docx')
-print(document)
+document = Document('Test_Doc.docx')
+document
