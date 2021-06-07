@@ -20,5 +20,5 @@ url = 'https://uscareers-lewisenergy.icims.com/jobs/9011/senior-drilling-enginee
 html = urlopen(url, context=ctx).read()
 soup = BeautifulSoup(html, "html.parser")
 
-
-print(soup)
+tags = soup('meta')
+print(tags)
