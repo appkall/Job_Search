@@ -1,6 +1,6 @@
 #2021 Attempt
 
-from docx import Document
+import docx2txt
 
-document = Document('Test_Doc.docx')
-document
+document = docx2txt.process('test.docx')
+print(document)
