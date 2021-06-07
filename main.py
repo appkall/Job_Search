@@ -1,4 +1,4 @@
-#2021 Attempt -Sublime Text
+#2021 Attempt
 
 from docx import Document
 
