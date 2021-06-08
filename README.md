@@ -16,4 +16,4 @@ Lastly, a percentage "score" is displayed to the user.  This calculation divides
 
 Feedback and improvement ideas are always welcomed: info@appkall.com
 
-Thank you.
+Thank you
