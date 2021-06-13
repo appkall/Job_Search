@@ -16,9 +16,10 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 #url = input('Enter: ')
-url = 'https://uscareers-lewisenergy.icims.com/jobs/9011/senior-drilling-engineer/job'
+url = 'https://jobs.hess.com/job/Houston-Drilling-Engineer-Job-TX-77001/752777500/'
 html = urlopen(url, context=ctx).read()
 soup = BeautifulSoup(html, "html.parser")
 
-tags = soup('meta')
-print(tags)
+#tags = soup('meta')
+#print(tags)
+print(soup)
