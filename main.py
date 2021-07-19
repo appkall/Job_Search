@@ -7,7 +7,7 @@ import docx2txt
 
 
 resume = docx2txt.process('test.docx')
-#print(resume)
+print(resume)
 
 
 # Ignore SSL certificate errors
@@ -22,4 +22,4 @@ soup = BeautifulSoup(html, "html.parser")
 
 #tags = soup('meta')
 #print(tags)
-print(soup)
+#print(soup)
