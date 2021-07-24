@@ -22,4 +22,4 @@ soup = BeautifulSoup(html, "html.parser")
 
 #tags = soup('meta')
 #print(tags)
-#print(soup)
+print(soup)
